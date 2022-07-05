@@ -39,19 +39,12 @@ Multiplication=Button (cal, padx=16,bd=8, fg="black", font=('arial', 20, 'bold')
 
 #FOURTH ROW
 
+btn0=Button (cal, padx=16,bd=8, fg="black", font=('arial', 20, 'bold'), text="0", bg="powder blue").grid(row=4, column=0)
+
+btnClear=Button (cal, padx=16,bd=8, fg="black", font=('arial', 20, 'bold'), text="C", bg="powder blue").grid(row=4, column=1)
+
+btnEquals=Button (cal, padx=16,bd=8, fg="black", font=('arial', 20, 'bold'), text="=", bg="powder blue").grid(row=4, column=2)
+
+Division=Button (cal, padx=16,bd=8, fg="black", font=('arial', 20, 'bold'), text="/", bg="powder blue").grid(row=4, column=3)
 
 cal.mainloop()
-
-'''
-window = tk.Tk()
-label = tk.Label(text="Python rocks!")
-label.pack()
-window.mainloop()
-
-class Application:
-    def __init__(self, master=None):
-        pass
-root = tk()
-Application(root)
-root.mainloop()
-'''
